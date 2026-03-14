@@ -9,7 +9,7 @@ import com.example.vehicleservice.service.CustomerService;
 
 @RestController
 @RequestMapping("/customers")
-@CrossOrigin
+@CrossOrigin(origins = "https://vehicle-service-frontend.onrender.com")
 public class CustomerController {
 
     private CustomerService customerService;

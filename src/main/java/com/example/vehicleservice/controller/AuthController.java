@@ -7,7 +7,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin("*")
+@CrossOrigin(origins="https://vehicle-service-frontend.onrender.com")
 public class AuthController {
     private final CustomerService customerService;
     public AuthController(CustomerService customerService) {

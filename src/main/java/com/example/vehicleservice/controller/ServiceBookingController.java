@@ -7,7 +7,7 @@ import com.example.vehicleservice.service.ServiceBookingService;
 
 @RestController
 @RequestMapping("/booking")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://vehicle-service-frontend.onrender.com")
 public class ServiceBookingController {
 
     private ServiceBookingService bookingService;
